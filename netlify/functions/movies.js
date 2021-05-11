@@ -20,7 +20,7 @@ exports.handler = async function(event) {
 
   // 🔥 hw6: your recipe and code starts here!
   let year = event.queryStringParameters.year
-  let genre = event.queryStringParameters.genres
+  let genre = event.queryStringParameters.genre
 
   // give an error message if both year and genre are undefined 
   if (year == undefined || genre == undefined) {
